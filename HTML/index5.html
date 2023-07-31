@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Html 5.0</title>
+</head>
+<body>
+
+    <h3>Please fill out this form:</h3>
+
+    <!-- Forms in HTML -->
+
+    <form action="/action.php">
+
+        <!-- Multiple input tags for user -->
+
+        <input type="text" placeholder="Full Name" name="user full name"  > <br>
+        <input type="text" placeholder="Email" name="user email"  > <br>
+        <input type="password" placeholder="Password" name="user password"  > <br>
+        <input type="number" placeholder="Mobile No" name="user mobile number"> <br> <br>
+
+        <!-- Radio buttons with labels -->
+        Your favourite colour ? <br>
+
+        <label for="1">
+        <input type="radio" value="red" name="color" id="1">red
+        </label> <br>
+
+        <label for="2">
+        <input type="radio" value="blue" name="color" id="2" >blue
+        </label> <br>
+
+        <label for="3">
+        <input type="radio" value="green" name="color" id="3" >green
+        </label> <br>
+
+        <label for="4">
+        <input type="radio" value="other color" name="color" id="4">other
+        </label> <br> <br>
+    
+        <!--Check boxes with labels  -->
+        Your favourite subjects ? <br>
+        <label for="5">
+        <input type="checkbox" value="maths" name="subject" id="5" >maths
+        </label> <br>
+
+        <label for="6">
+        <input type="checkbox" value="bio" name="subject" id="6" >bio
+        </label> <br>
+
+        <label for="7">
+        <input type="checkbox" value="physics" name="subject" id="7" >physics
+        </label> <br>
+
+        <label for="8">
+        <input type="checkbox" value="chemistry" name="subject" id="8" >chemistry
+        </label> <br> <br>
+   
+        Which city are you from ? <br>
+        <!-- Select -->
+
+        <select name="cities" >
+
+        <option value="Islamabad">Islamabad</option>
+        <option value="Lahore">Lahore</option>
+        <option value="Quetta">Quetta</option>
+        <option value="Gilgit">Gilgit</option>
+        <option value="Kashmir">Kashmir</option>
+
+        </select> <br> <br>
+
+        Which country are you from ? <br>
+        <!-- Datalist -->
+
+        <input list="cities" placeholder="Your country" name="countries">
+        <datalist id="cities">
+            <option value="Islamabad">
+            <option value="Lahore">
+            <option value="Quetta">
+            <option value="Kashmir">
+        </datalist> <br> <br>
+
+        Don't mind giving us valuable feedback too. <br>
+         <!-- Text area -->
+         <textarea placeholder="Your Feedback" name="feedback" rows="2"></textarea> <br>
+
+         <input type="submit">
+         
+         <!-- or we can use button tag as well -->
+         <!-- <button type="submit">Submit</button> -->
+
+    </form>
+
+</body>
+</html>
