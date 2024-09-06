@@ -8,7 +8,7 @@ This repository contains resources for learning HTML, including class notes, exa
    - `classnotes.pdf`: Notes covering various HTML topics.  
    - `htmlcodes.pdf`: Example HTML code snippets.
 
-2. **HTML Examples**  
+2. **HTML**  
    - `index.html`: Basic HTML elements like headings, paragraphs, anchors, images, bold, italic, underline, etc.  
    - `index2.html`: Semantic tags (header, main, footer, section, article, aside), non-semantic tags (div, span).  
    - `index3.html`: Anchor tags/links.  
